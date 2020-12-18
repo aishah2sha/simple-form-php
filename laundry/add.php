@@ -43,7 +43,6 @@
                 </li>
             </ul>
     </nav>
-
     <div class="container-fluid">
       <div class="row">
         <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
@@ -78,17 +77,14 @@
                             <span data-feather="bar-chart-2"></span>
                             Reports
                         </a>
-                    </li>
-                    
+                    </li>                  
                 </ul>
             </div>
         </nav>
-
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                 <h1 class="h2">Create Orders</h1> 
             </div>
-
             <form action="add.php" method="POST">
                 <div class="form-row">
                     <div class="col-md-6 mb-3"><!--Date-->
@@ -163,26 +159,14 @@
                         <input type="number" class="form-control" id="validationDefault05" name="gtprice" required>
                     </div>
                 </div>
-                
                 <br>
                 <button class="btn btn-primary" type="submit" name="submit">Submit form</button>
-            </form>
-
-          
-                
-            
+            </form> 
         </main>
       </div>
     </div>
     
     <?php include('footer.php')?>
-
-    <script>
-	function closeMsg()
-	{
-		$('#cl').hide();
-	}
-</script>
 
 </body>
 </html>
